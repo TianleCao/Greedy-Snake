@@ -10,10 +10,10 @@ You will need DE2-70FPGA, Pmod OLED and Pmod ACL2 (SPI would apply for both) for
 ## Code Sturcture
 The whole project is built on *quartus*. Therefore both HDL files and bdf files (top level circuit connection) are provided.    
 
-name                     | Description
---------                 | --------
-*judge_y.vhd*            | Direction judgement in y-axis
-*judge_x.vhd*            | Direction judgement in x-axis
+name | Description
+---- | --------
+*judge_y.vhd* | Direction judgement in y-axis
+*judge_x.vhd* | Direction judgement in x-axis
 *EDA_Mission.v*          | Top level file
 *direction_output.bdf*   | Top level file of direction module
 *sweep.vhd*              | Generate signal axis and CS'for communication
