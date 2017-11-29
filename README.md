@@ -27,4 +27,8 @@ The whole project is built on *quartus*. Therefore both HDL files and bdf files 
 |*OledInit.v Oled*       |Initialize module  |
 |*CountDisplay.v*        |Controller of Seven Sections of Difital Tubes used to display score  |
 |*RanGen.v*              |Random number generator (for generating food on the screen)  |
+name | age
+---- | ---
+LearnShare | 12
+Mike |  32
 ## Results
