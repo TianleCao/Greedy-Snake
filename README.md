@@ -12,7 +12,7 @@ The whole project is built on *quartus*. Therefore both HDL files and bdf files 
 
 *judge_y.vhd*            Direction judgement in y-axis  
 *judge_x.vhd*            Direction judgement in x-axis  
-*EDA_Mission.v*          Top level file  
+*EDA_Mission.v*          Top level file  
 *direction_output.bdf*   Top level file of direction module  
 *sweep.vhd*             Generate signal axis and CS'for communication  
 *freq_divi.vhd*         Generate the SCLK for communication of ACL2  
