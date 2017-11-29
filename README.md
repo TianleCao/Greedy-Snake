@@ -9,8 +9,8 @@ For this project, we aim to implement the game Greedy Snake via FPGA. An OLED sc
 You will need DE2-70FPGA, Pmod OLED and Pmod ACL2 (SPI would apply for both) for this game. The pins are specified in *greedy snake pin.xlsx*
 ## Code Sturcture
 The whole project is built on *quartus*. Therefore both HDL files and bdf files (top level circuit connection) are provided.    
-| name                    | Description|
-| :--------               |:--------|
+|name                    |Description|
+|:--------               |:--------|
 |*judge_y.vhd*            |Direction judgement in y-axis|
 |*judge_x.vhd*            |Direction judgement in x-axis| 
 |*EDA_Mission.v*          |Top level file|
