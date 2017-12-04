@@ -31,6 +31,3 @@ name | Description
 ## Results
 A photo with explanation for buttons could be seen below:
 ![Alt text](/imgs/demo.jpg)
-
-And here is a running example:
-![Alt text](/imgs/running.jpg)
