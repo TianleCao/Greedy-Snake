@@ -7,7 +7,7 @@ The demo was implemented by Dingkun Liu and Tianle Cao.
 For this project, we aim to implement the game Greedy Snake via FPGA. An OLED screen would be used for showing the snake and food, while the Triaxial accelerometer would indicate our gestures and provide the information for snake controllment. Certain buttons on the FPGA could be used to stop/start the game and speed up (for more game difficulties).
 ### Hardwares
 You will need DE2-70FPGA, Pmod OLED and Pmod ACL2 (SPI would apply for both) for this game. The pins are specified in *greedy snake pin.xlsx*
-## Code Sturcture
+## Code Structure
 The whole project is built on *quartus*. Therefore both HDL files and bdf files (top level circuit connection) are provided.    
 
 name | Description
@@ -28,6 +28,9 @@ name | Description
 *OledInit.v Oled*        | Initialize module
 *CountDisplay.v*         | Controller of Seven Sections of Difital Tubes used to display score
 *RanGen.v*               | Random number generator (for generating food on the screen)
+## Simulation
+Simulation is performed for SPI protocal with *communication.vwf*. A demo result is shown below, in which case the master tries to read the data from a register in the slave device with command 00001011 and 8-bit address 00001010
+![Alt text](/imgs/simulation.jpg)
 ## Results
 A photo with explanation for buttons could be seen below:
 ![Alt text](/imgs/demo.jpg)
