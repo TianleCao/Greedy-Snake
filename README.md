@@ -28,7 +28,7 @@ name | Description
 *OledInit.v Oled*        | Initialize module
 *CountDisplay.v*         | Controller of Seven Sections of Difital Tubes used to display score
 *RanGen.v*               | Random number generator (for generating food on the screen)
-## Simulation
+## Simulations
 Simulation is performed for SPI protocal with *communication.vwf*. A demo result is shown below, in which case the master tries to read the data from a register in the slave device with command 00001011 and 8-bit address 00001010
 ![Alt text](/imgs/simulation.jpg)
 ## Results
