@@ -29,3 +29,8 @@ name | Description
 *CountDisplay.v*         | Controller of Seven Sections of Difital Tubes used to display score
 *RanGen.v*               | Random number generator (for generating food on the screen)
 ## Results
+A photo with explanation for buttons could be seen below:
+![Alt text](/imgs/demo.jpg)
+
+And here is a running example:
+![Alt text](/imgs/running.jpg)
